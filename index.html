@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My linktree</title>
+    <meta charset="UTF-8" />
+    <style>
+/* CSS Variables (Design Tokens) */
+      :root {
+        --primary: #d1cbbe;
+        --green: #807a6c;
+        --radius: 15px;
+        --shadow: 0 5px 30px rgba(0,0,0,.15);
+        }
+      
+      header, footer {
+        color: var(--primary); 
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      main {
+        max-width: 450px;
+        margin: 0 auto;
+      }
+      footer {
+        padding-bottom: 50px;
+        margin-top: 50px;
+        font-size: 12px;
+      }
+      footer a {
+        text-decoration: none;
+        color: inherit;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      body {
+        font-family: cursive;
+        padding: 20px;
+        background-color: #f9f1e1;
+        }
+      
+      .card {
+        background: #f9f1df;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left:70px;
+        margin-right:70px;
+        box-shadow:var(--shadow);
+        border-radius: var(--radius);
+        color: var(--green);
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        border: 2px solid transparent;
+        
+        &:hover {
+          border: 2px solid #a8987d;
+          transform: translatey(-2px);
+        }
+      } 
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Linktree</h1>
+    </header>
+    <main>
+      <!-----------------Youtube----------------->
+      <a href="https://www.youtube.com/@PRWP479" 
+         target="_blank" 
+         style="
+         text-decoration:none;
+         color:inherit; ">
+      <div class=card>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+             width="50" >
+        <div>
+          Youtube
+        </div>
+      </div>
+      </a>
+      <!-----------------Twitch----------------->
+      <a href="#" 
+         target="_blank" 
+         style="
+         text-decoration:none;
+         color:inherit; ">
+      <div class=card>
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"
+             width="50" >
+        <div>
+          Twitch
+        </div>
+      </div>
+      </a>
+      <!-----------------IG----------------->
+      <a href="#" 
+         target="_blank" 
+         style="
+         text-decoration:none;
+         color:inherit; ">
+      <div class=card>
+        <img src="https://img.magnific.com/premium-psd/instagram-logo_971166-164497.jpg?semt=ais_hybrid&w=740&q=80"
+             width="50">
+        <div>
+          Instragram
+        </div>
+      </div>
+      </a>
+      <!-----------------Facebook----------------->
+      <a href="#" 
+         target="_blank" 
+         style="
+         text-decoration:none;
+         color:inherit; ">
+      <div class=card>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png"
+             width="45">
+        <div>
+          Facebook
+        </div>
+      </div>
+      </a>
+      <!-----------------My GG Drive----------------->
+      <a href="https://drive.google.com/file/d/1sU_KejqPSqY2s5O2-7y5-qEGSqcOERNp/view?usp=drive_link" 
+         target="_blank" 
+         style="
+         text-decoration:none;
+         color:inherit; ">
+      <div class=card>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/3840px-Google_Drive_icon_%282020%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+             width="50">
+        <div>
+          Portfolio
+          <p style="font-size:15px; text-align:center;">3D Interior</p>
+        </div>
+      </div>
+      </a>
+    </main>
+    <footer>
+        &#169;2026 Copyright &#124; 
+        <a href="mailto:phed.peerawich@gmail.com" 
+           target="_blank">
+          Contact for work
+        </a>
+    </footer>
+  </body>
+</html>
